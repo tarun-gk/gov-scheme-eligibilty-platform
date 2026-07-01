@@ -1,0 +1,14 @@
+{
+  "name": "gov-scheme-platform",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "init:db": "npm --prefix backend run init:db",
+    "start": "npm --prefix backend start",
+    "dev": "npm --prefix frontend run dev -- --host",
+    "dev:backend": "npm --prefix backend run dev",
+    "import:web": "npm --prefix backend run import:web",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint"
+  }
+}
